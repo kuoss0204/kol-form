@@ -1,4 +1,4 @@
-<!DOCTYPE html>const scriptURL='[https://script.google.com/macros/s/https://script.google.com/macros/s/AKfycbwtL22Z-pcgLstC7ZT9VHlLztOcx8ZLhMdW6z0fPayS-8gdTGNDUmPhTGyAEKcQDx0vkQ/exec/exec]';
+<!DOCTYPE html>const scriptURL
 <html lang="zh-Hant">
 <head>
 <meta charset="UTF-8">
@@ -546,7 +546,7 @@
   const form = document.getElementById('kolForm');
   const submitBtn = document.getElementById('submitBtn');
 
-  fform.addEventListener('submit', async (e) => {
+form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const platform = form.querySelector('input[name=platform]:checked');
@@ -572,7 +572,7 @@
 
   try {
     // 替換成你剛剛複製的 Google Apps Script 網址
-    const scriptURL = '請貼上你的_網頁應用程式網址_URL'; 
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzgpsaNaOC9YlY-99aNtsugfRgKNSmOAtbCDKOxICDVbpisVbVYZtEcLYeyhAnQvxlA/exec'; 
     
     await fetch(scriptURL, {
       method: 'POST',
